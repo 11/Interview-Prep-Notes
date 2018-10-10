@@ -13,7 +13,8 @@ The goal of this post is to have a one size fits all approach for the aforementi
 
 ### How to handle the situation
 A very common one size fits all approach is to use three nodes to iterate through a list: `tail`, a pointer that keeps track of the last node we touched;
-`cur` a pointer that keeps track of the current node we are working with; and `front`, the next node we are going to interact with.
+`cur` a pointer that keeps track of the current node we are working with; and `front`, the next node we are going to interact with. By having all three of these nodes,
+we can handle of the above conditions.
 
 ### The Code
 
