@@ -32,6 +32,7 @@ front = cur.next
 
 while cur is not None:
 
+    # handle logic
     if tail is None:
         handle_front_of_list()
     elif front is None:
@@ -39,4 +40,9 @@ while cur is not None:
     else:
         handle_middle_of_list()
 
+
+    # update pointers
+    tail = cur
+    cur = None if front is None else front
+    front = None if front.next is None else front.next
 ```
