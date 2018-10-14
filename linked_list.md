@@ -1,6 +1,6 @@
 
 ### Iterating through a Linked List
-Often times, interview questions will create a situation where you need to iterate through a Linked Lists in such a way that you need to create three separate conditions:
+Often times, interview questions will create a situation where you need to iterate through a Linked Lists in such a way that you need to address three separate conditions:
 
     - One for manipulating the head of the list
     - One for manipulating the middle of the list
