@@ -40,7 +40,7 @@ while cur is not None:
 ```
 
 Another thing to note is how we increment our pointers forward through the list. In order to properly increment everything forward,
-you must increment starting with `tail`, and ending with `front`. Here is the logic
+you must increment starting with `tail`, and ending with `front`. Here is the logic:
 ```python
 while cur is not None:
 
@@ -51,7 +51,6 @@ while cur is not None:
     cur = None if front is None else front
     front = None if front.next is None else front.next
 ```
-
 
 ### The Code
 
