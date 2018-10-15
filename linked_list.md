@@ -25,7 +25,7 @@ iterate through a linked list with `cur` pointing to the first Node in the list,
 that we have a clear way to check if we are on the first iteration in our loop, a condition that often requires it's own logic. (You'll
 understand what I mean by this more as you try to linked list problems.)
 
-Here is the section of code that pertains to initializing `tail` and using checking if you are on the <b>first</b> iteration:
+Here is the section of code that pertains to initializing `tail` and using `tail` to check if you are on the <b>first</b> iteration:
 ```python
 tail = None
 cur = head
