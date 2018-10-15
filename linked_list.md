@@ -82,6 +82,6 @@ while cur is not None:
 
     # update pointers
     tail = cur
-    cur = None if front is None else front
-    front = None if front.next is None else front.next
+    cur = None if cur is None or front is None else front
+    front = None if front is None or front.next is None else front.next
 ```
