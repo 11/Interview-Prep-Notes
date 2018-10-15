@@ -21,7 +21,7 @@ all three of these nodes, we can handle the aforementioned conditions - and even
 ### Some Important Notes
 The first thing to take note of is that I strongly suggest initializing `tail` to `null` - and or `None`; reason being that we can
 iterate through a linked list with `cur` pointing to the first Node in the list, allowing for our loop to be consistently checking if
-`cur` is `null` from the beginning, all the way to the end of the list. Also, something nice that comes out of setting `tail` to `null` is
+`cur` is `null` from beginning to the end of the list. Also, something nice that comes out of setting `tail` to `null` is
 that we have a clear way to check if we are on the first iteration in our loop, a condition that often requires it's own logic. (You'll
 understand what I mean by this more as you try to linked list problems.)
 
